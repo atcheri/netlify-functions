@@ -1,0 +1,21 @@
+{
+  "name": "netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Atsuhiro Endo",
+  "license": "ISC",
+  "devDependencies": {
+		"netlify-cli": "^13.0.0",
+		"typescript": "^4.9.5"
+	},
+	"dependencies": {
+		"@netlify/functions": "^1.4.0"
+	}
+}
